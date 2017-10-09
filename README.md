@@ -2,26 +2,23 @@
 
 This project has to parts: server side and client side.
 
-    1. for client side I chose React and build it separately.
-    2. for server side I chose rails with mode --api.
-
 To run:
 1. First start with server side:
 
-    1. Open a new tab in your terminal
-    2. type in terminal and hit enter `git clone https://github.com/IuliiaKot/BonobosApi.git`
-    3. type in terminal window `cd BonobosApi`
-    4. run `bundle install`
-    5. `rake db: drop rake db:create && rake db:migrate && rake db:seed`
-    6. run server `rails s -p 8000`
+        1. Open a new tab in your terminal
+        2. type in terminal and hit enter `git clone https://github.com/IuliiaKot/BonobosApi.git`
+        3. type in terminal window `cd BonobosApi`
+        4. run `bundle install`
+        5. `rake db: drop rake db:create && rake db:migrate && rake db:seed`
+        6. run server `rails s -p 8000`
 
 2. Run client side:
 
-    1. open terminal and run `git clone https://github.com/IuliiaKot/bonobos-client-side.git`
-    2. type in terminal window `cd bonobos-client-side`
-    3. type `yarn`
-    4. type `yarn start`
-    5. and go to this link `http://localhost:3000/`
+        1. open terminal and run `git clone https://github.com/IuliiaKot/bonobos-client-side.git`
+        2. type in terminal window `cd bonobos-client-side`
+        3. type `yarn`
+        4. type `yarn start`
+        5. and go to this link `http://localhost:3000/`
 
 
   ## Description
