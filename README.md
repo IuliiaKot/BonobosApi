@@ -9,7 +9,7 @@ To run:
         2. type in terminal and hit enter `git clone https://github.com/IuliiaKot/BonobosApi.git`
         3. type in terminal window `cd BonobosApi`
         4. run `bundle install`
-        5. `rake db: drop rake db:create && rake db:migrate && rake db:seed`
+        5. `rake db:drop && rake db:create && rake db:migrate && rake db:seed`
         6. run server `rails s -p 8000`
 
 2. Run client side:
